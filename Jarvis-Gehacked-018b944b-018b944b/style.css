@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    background-color: #000563;
+    color: white;
+    height: 50px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.links{
+    margin-right: auto;
+}
+
+.links > img{
+    margin-right: auto;
+    width: 100px;
+    padding-top: 6px;
+    display: flex;
+    }
+
+.midden > img{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 1px;
+    padding-top: 0px;
+    width: 30px;
+}
+
+.midden { 
+display: flex; 
+flex-direction:row; 
+align-items: center;
+}
+
+.middenonder{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #faf9f7;
+}
+
+.recht{
+margin-left: auto;
+display: flex;
+align-items: center;
+}
+
+.recht > img{
+    display: flex;
+    padding-left: 0px;
+    width: 30px;
+}
+#creds{
+    padding-left: 40px;
+}
+#pijl{
+    width: 20px;
+    padding-right: 30px;
+}
+
+.profiel > img{
+    border-radius: 360px;
+    aspect-ratio: 1/1;
+    width: 30px;
+    margin: 10px;
+}
+.rondje{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.progressbar{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    background-color: #8cd1ff;
+    border-radius: 5px;
+    color: white;
+}
+
+.progress-fill{
+    display: flex;
+    height: 100%;
+    width: 3%;
+    background-color: #2597a5;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.high{
+   display: flex;
+   background-color: white;
+   color: rgb(95, 176, 95);
+   border-radius: 5px;
+   margin-left: 20px;
+   padding-left: 2px;
+   font-size: 20px; 
+   height: 30px;
+}
+
+td,tr{
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+td,th{
+    padding: 20px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: #fefefe;
+    margin: 10px;
+}
+
+.getallen{
+    display: flex;
+    justify-content: center;
+    margin-right: 900px;
+    padding-top: 50px;
+    font-size: xx-large;
+    background-color: #faf9f7;
+}
+
+.getal{
+    margin-left: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.high span {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wit{
+    padding: 20px;
+    color:white;
+}
+
+.groen{
+    display: flex;
+    color: white;
+    background-color: rgb(95, 176, 95);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.kopfortnajt{
+    font-size: xx-large;
+}
+
+.bloemkop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+    margin-left: 20px;
+    border-style: hidden;
+    background-color: white;
+    padding: 30px;
+    margin-top: -50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tekstbloem{
+    width: 190px;
+    margin-left: 13px;
+}
+
+.fotobloem{
+    display: flex;
+    width: 190px;
+    margin-right: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+body{
+    background-color:  #faf9f7;
+}
